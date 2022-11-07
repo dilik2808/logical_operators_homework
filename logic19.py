@@ -8,4 +8,10 @@ def main(x):
     Returns:
         bool: answer
     """
-    return
+    x=str(x)
+    a=x[::]
+    b=x[::-1]
+
+    return a==b
+
+print (main (1235321))
